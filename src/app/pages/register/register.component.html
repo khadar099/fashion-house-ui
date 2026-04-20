@@ -1,0 +1,9 @@
+<h2>Register</h2>
+
+<input placeholder="Email" [(ngModel)]="user.email"><br><br>
+<input placeholder="Password" type="password" [(ngModel)]="user.password"><br><br>
+<input placeholder="Mobile" [(ngModel)]="user.mobile"><br><br>
+
+<button (click)="register()">Register</button>
+
+<p>{{ message }}</p>
